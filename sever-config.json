@@ -1,0 +1,33 @@
+{
+	"databaseURI":"mongodb://localhost:1234/parse",	
+	"cloud":"cloud/main.js",
+	"appId":"app123",
+	"masterKey":"master123",
+	"fileKey":"file123",
+	"restAPIKey":"restapi123",
+	"javascriptKey":"javascript123",
+	"push":{
+		"android":{
+			"senderId":"385621664556",
+			"apiKey": "AIzaSyAfXxb5sYaobl8u1QBOvKdGxwWm2brxeHQ"
+		}
+	},
+	"verifyUserEmails":true,
+	"preventLoginWithUnverifiedEmail":true,
+	"publicServerURL":"http://localhost:1337/parse",
+	"appName":"Parse",
+	"emailAdapter":{
+		"module":"parse-server-simple-mailgun-adapter",
+		"options":{
+			"fromAddress":"dhrumesh@parse.com",
+			"domain":"sandbox36298a62792c4d7088631848be2479e8.mailgun.org",
+			"apiKey":"key-bc3c01987a66d1a3cc42c30b5ca1e521"
+		}	
+	},
+	"filesAdapter":{
+		"module":"parse-server-fs-adapter",
+		"options":{
+			"filesSubDirectory":"files"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"apps":[
+		{
+			"serverURL":"http://192.168.0.102:1337/parse/",
+			"appId":"app123",
+			"masterKey":"master123",
+			"appName":"Test"
+		}
+	],
+	"users":[
+		{
+			"user":"dcg",
+			"pass":"dcg",
+			"apps":[{"appId":"app123"}]
+		}
+	]
+}		
